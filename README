@@ -1,0 +1,5 @@
+This plugin originally written by Allen Jardine (http://www.sprymedia.co.uk/) and can also be found on the
+dataTables sorting plugins page (http://datatables.net/plug-ins/sorting).  It was good and well commented,
+but failed when the data was empty or was unexpected.  I extended it to anticipate empty values, any form of
+NA (eg, na, n/a, NA, N/A) and either single or double dashes (eg. -, --).  I also extended it to handle
+numbers without a leading currency symbol.  Of course it's also run through JSLint
