@@ -20,7 +20,7 @@ $.fn.dataTableExt.oSort['currency-asc'] = function (a, b) {
 	x = parseFloat(x, 10);
 	y = parseFloat(y, 10);
 
-	return y - x;
+	return x - y;
 };
 $.fn.dataTableExt.oSort['currency-desc'] = function (a, b) {
 	'use strict';
@@ -43,5 +43,5 @@ $.fn.dataTableExt.oSort['currency-desc'] = function (a, b) {
 	x = parseFloat(x, 10);
 	y = parseFloat(y, 10);
 
-	return x - y;
+	return y - x;
 };
